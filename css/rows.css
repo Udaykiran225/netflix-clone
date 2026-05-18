@@ -1,0 +1,27 @@
+.row-scroll {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.row-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.card-item {
+  transition: transform 0.3s, box-shadow 0.3s;
+  flex-shrink: 0;
+}
+
+.card-item:hover {
+  transform: scale(1.08);
+  z-index: 20;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.7);
+}
+.card-item h4 {
+  transition: color 0.3s ease;
+}
+
+.card-item:hover h4 {
+  color: #e50914;
+}

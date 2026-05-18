@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  box-sizing: border-box;
+}
+
+.bebas {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.fade-bottom {
+  background: linear-gradient(transparent, #141414 90%);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.8s ease forwards;
+}
+footer i {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+footer i:hover {
+  color: white;
+}
