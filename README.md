@@ -46,33 +46,21 @@ Movie Player
 ⸻
 
 🛠️ Technologies Used
-Technology
+  ~~~
+Technology   -Purpose
 
-Purpose
+HTML5        -Structure
 
-HTML5
+CSS3         -Styling
 
-Structure
+JavaScript   -Functionality
 
-CSS3
+Tailwind CSS -Responsive UI
 
-Styling
+Firebase     -Authentication
 
-JavaScript
-
-Functionality
-
-Tailwind CSS
-
-Responsive UI
-
-Firebase
-
-Authentication
-
-Git & GitHub
-
-Version Control
+Git & GitHub -Version Control
+~~~
 
 📂 Folder Structure
 ~~~
